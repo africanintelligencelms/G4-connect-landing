@@ -1,0 +1,65 @@
+
+<!DOCTYPE html>
+<html lang="en" style="scroll-behavior: smooth;">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>G4 Connect Festival 2025</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            fontFamily: {
+              orbitron: ['Orbitron', 'sans-serif'],
+              roboto: ['Roboto', 'sans-serif'],
+            },
+            colors: {
+              'neon-pink': '#f0f',
+              'neon-blue': '#0ff',
+              'neon-purple': '#9400d3',
+              'dark-purple': '#1a0033',
+            },
+            boxShadow: {
+              'neon-pink': '0 0 5px #f0f, 0 0 10px #f0f, 0 0 20px #f0f, 0 0 40px #f0f',
+              'neon-blue': '0 0 5px #0ff, 0 0 10px #0ff, 0 0 20px #0ff, 0 0 40px #0ff',
+              'neon-purple': '0 0 5px #9400d3, 0 0 10px #9400d3, 0 0 20px #9400d3, 0 0 40px #9400d3',
+            },
+            animation: {
+              'pulse-glow': 'pulse-glow 3s infinite alternate',
+            },
+            keyframes: {
+              'pulse-glow': {
+                '0%': { opacity: 0.7, transform: 'scale(1)' },
+                '100%': { opacity: 1, transform: 'scale(1.02)' },
+              }
+            }
+          }
+        }
+      }
+    </script>
+  <script type="importmap">
+{
+  "imports": {
+    "react/": "https://aistudiocdn.com/react@^19.2.0/",
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "express": "https://aistudiocdn.com/express@^5.1.0",
+    "@prisma/client": "https://aistudiocdn.com/@prisma/client@^6.19.0",
+    "dotenv": "https://aistudiocdn.com/dotenv@^17.2.3",
+    "zod": "https://aistudiocdn.com/zod@^4.1.12",
+    "cors": "https://aistudiocdn.com/cors@^2.8.5",
+    "url": "https://aistudiocdn.com/url@^0.11.4",
+    "path": "https://aistudiocdn.com/path@^0.12.7"
+  }
+}
+</script>
+</head>
+  <body class="bg-black">
+    <div id="root"></div>
+  </body>
+</html>
